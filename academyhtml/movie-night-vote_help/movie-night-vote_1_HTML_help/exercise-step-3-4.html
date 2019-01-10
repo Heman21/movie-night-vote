@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Movie night vote</title>
+</head>
+
+<body>
+  <header>
+    <a href="login.html">Log in</a>
+    <a href="admin.html">Site admin</a>
+
+    <h1>Movie night vote</h1>
+
+    <nav>
+      <ul>
+        <li><a href="">This week’s vote</a></li>
+        <li><a href="">This week’s results</a></li>
+        <li><a href="">Previous results</a></li>
+        <li><a href="">About this site</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="content">
+    <h2>This week’s vote</h2>
+
+    <form method="POST" action="results.html">
+      <p>
+        Hi
+        <select name="name">
+          <option value="1">Alice</option>
+          <option value="2">Bob</option>
+          <option value="3" selected>Claire</option>
+        </select>
+      </p>
+
+      <p>Which of the following movies would you like to see on the next Movie Night?<br>Pick your choice below!</p>
+
+      <div class="movie">
+        <label for="vote_1">
+          <input type="radio" id="vote_1" value="1" name="vote">
+          <span>Deadpool</span>
+        </label>
+        <p>Wade Wilson (Ryan Reynolds) is a former Special Forces operative who now works as a mercenary...</p>
+      </div>
+
+      <div class="movie">
+        <label for="vote_2">
+          <input type="radio" id="vote_2" value="2" name="vote">
+          <span>Fantastic Beasts and Where to Find Them</span>
+        </label>
+        <p>Newt Scamander (Eddie Redmayne) has just completed a global excursion to find and document...</p>
+      </div>
+
+      <div class="movie">
+        <label for="vote_3">
+          <input type="radio" id="vote_3" value="3" name="vote">
+          <span>Finding Dory</span>
+        </label>
+        <p>Disney Pixar's "Finding Dory" welcomes back to the big screen everyone's favorite forgetful blue tang Dory...</p>
+      </div>
+
+      <div class="movie">
+        <label for="vote_4">
+          <input type="radio" id="vote_4" value="4" name="vote">
+          <span>La La Land</span>
+        </label>
+        <p>The story of Mia, an aspiring actress, and Sebastian, a dedicated jazz musician, struggling to make ends...</p>
+      </div>
+
+      <div class="movie">
+        <label for="vote_5">
+          <input type="radio" id="vote_5" value="5" name="vote">
+          <span>Moana</span>
+        </label>
+        <p>A sweeping, CG-animated adventure about a spirited teenager who sails out on a daring mission to prove...</p>
+      </div>
+
+      <div class="movie">
+        <label for="vote_6">
+          <input type="radio" id="vote_6" value="6" name="vote">
+          <span>Pete’s Dragon</span>
+        </label>
+        <p>Former scientist Galen Erso lives on a farm with his wife and young daughter Jyn. His peaceful existence...</p>
+      </div>
+
+      <div class="movie">
+        <label for="vote_7">
+          <input type="radio" id="vote_7" value="7" name="vote">
+          <span>Rogue One: A Star Wars Story</span>
+        </label>
+        <p>Former scientist Galen Erso lives on a farm with his wife and young daughter Jyn. His peaceful existence...</p>
+      </div>
+
+      <div class="movie">
+        <label for="vote_8">
+          <input type="radio" id="vote_8" value="8" name="vote">
+          <span>Suicide Squad</span>
+        </label>
+        <p>It feels good to be bad...Assemble a team of the world's most dangerous, incarcerated Super Villains...</p>
+      </div>
+
+     <input type="submit" value="Vote!" id="vote_button">
+
+    </form>
+  </div>
+
+  <footer>
+    <p>A page by [your name]</p>
+  <footer>
+
+</body>
+
+</html>

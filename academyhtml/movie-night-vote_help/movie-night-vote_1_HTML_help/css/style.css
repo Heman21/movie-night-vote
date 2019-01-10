@@ -1,0 +1,11 @@
+body { /* all of the html is nested inside the body tag so rules applied here affect the whole page */
+  font-family: Arial, sans-serif;
+}
+
+#vote_button { /* example of styling an element by its id */
+  cursor: pointer;
+}
+
+.small { /* example of styling an element (or multiple elements) by its class */
+  font-size: 14px;
+}

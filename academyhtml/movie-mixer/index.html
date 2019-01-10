@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!--Header Start-->
+<head>
+  <meta charset="utf-8">
+  <title>Movie Mixer</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<!-- HEADER End -->
+
+
+<!-- Body Start -->
+<body>
+  <div id="wrapper">
+    <div class="user-info">
+        <a href="#">Log in</a>
+        <a href="#">Site admin</a>
+    </div>
+     <header>
+      <img src="images/logo.png" alt="Logo of the page" id="logo">
+      <nav>
+
+
+
+        <ul>
+          <li><a href="#">This week’s vote</a></li>
+          <li><a href="#">This week’s results</a></li>
+          <li><a href="#">Previous results</a></li>
+          <li><a href="#">About this site</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- HEADER end -->
+
+    <!-- MAIN CONTENT start -->
+    <div class = "content">
+        <h2>This week’s vote</h2>
+
+        <div id="form-wrapper">
+            <form method="POST" action="results.html">
+            <p>Hi
+              <select name="name">
+                <option value="1">Alice</option>
+                <option value="2">Bob</option>
+                <option value="3">Claire</option>
+              </select>
+            </p>
+
+            <p>Which of the following movies would you like to see on the next Movie Night? <br>Pick your choice below!</p>
+
+            <div class="movie">
+                <label for"vote_1">
+                  <img src="images/deadpool.jpg" alt="Poster of Deadpool Movie">
+                  <input type="radio" id="vote_1" value="1" name="vote">
+                  <span>Deadpool</span>
+                </label>
+                <p>Wade Wilson (Ryan Reynolds) is a former Special Forces operative who now works as a mercenary...</p>
+            </div>
+
+            <div class = "movie">
+                <label for"vote_2">
+                  <img src="images/fantastic-beasts.jpg" alt="Poster of Fantastic Beasts Movie">
+                  <input type="radio" id="vote_2" value="2" name="vote">
+                  <span>Fantastic Beasts and Where to Find Them</span>
+                </label>
+                <p>Newt Scamander (Eddie Redmayne) has just completed a global excursion to find and document...</p>
+            </div>
+
+            <div class="movie">
+              <label for"vote_3">
+                <img src="images/finding-dory.jpg" alt="Poster of Finding Dory Movie">
+                <input type="radio" id="vote_3" value="3" name="vote">
+                <span>Finding Dory</span>
+              </label>
+              <p>Disney Pixar's "Finding Dory" welcomes back to the big screen everyone's favorite forgetful blue tang Dory...</p>
+            </div>
+
+            <div class="movie">
+                <label for"vote_4">
+                  <img src="images/la-la-land.jpg" alt="Poster of La La Land Movie">
+                  <input type="radio" id="vote_4" value="4" name="vote">
+                  <span>La La Land</span>
+                </label>
+                <p>The story of Mia, an aspiring actress, and Sebastian, a dedicated jazz musician, struggling to make ends...</p>
+            </div>
+
+            <div class="movie">
+                <label for"vote_5">
+                  <img src="images/moana.jpg" alt="Poster of Moana Movie">
+                  <input type="radio" id="vote_5" value="5" name="vote">
+                  <span>Moana</span>
+                </label>
+                <p>A sweeping, CG-animated adventure about a spirited teenager who sails out on a daring mission to prove...</p>
+            </div>
+
+            <div class="movie">
+                <label for"vote_6">
+                  <img src="images/petes-dragon.jpg" alt="Poster of Pete's Dragon Movie">
+                  <input type="radio" id="vote_6" value="6" name="vote">
+                  <span>Pete’s Dragon</span>
+                </label>
+                <p>Former scientist Galen Erso lives on a farm with his wife and young daughter Jyn. His peaceful existence...</p>
+            </div>
+
+            <div class="movie">
+                <label for"vote_7">
+                  <img src="images/rogue-one.jpg" alt="Poster of Rogue One Movie">
+                  <input type="radio" id="vote_7" value="7" name="vote">
+                  <span>Rogue One: A Star Wars Story</span>
+                </label>
+                <p>Former scientist Galen Erso lives on a farm with his wife and young daughter Jyn. His peaceful existence...</p>
+            </div>
+
+            <div class="movie">
+                <label for"vote_8">
+                  <img src="images/suicide-squad.jpg" alt="Poster of Suicide Squad Movie">
+                  <input type="radio" id="vote_8" value="8" name="vote">
+                  <span>Suicide Squad</span>
+                </label>
+                <p>It feels good to be bad...Assemble a team of the world's most dangerous, incarcerated Super Villains...</p>
+            </div>
+
+            <input type="submit" value="Vote!" id="vote_button">
+          </form>
+      </div>
+    </div>
+  <!-- MAIN CONTENT end -->
+  </div>
+
+  <!--Footer Tag Start-->
+  <footer>
+    <p>A page by Hemanth</p>
+  </footer>
+  <!--Footer Tag End-->
+</body>
+<!--Body tag End-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+</html> <!--End of html-->

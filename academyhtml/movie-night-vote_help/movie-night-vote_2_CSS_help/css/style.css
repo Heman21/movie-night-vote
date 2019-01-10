@@ -1,0 +1,129 @@
+body { /* all of the html is nested inside the body tag so rules applied here affect the whole page */
+  font-family: Arial, sans-serif;
+  background-color: #9ec2e9;
+  font-size: 16px;
+  margin: 0;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 80px; /* this gets added after we style the footer */
+}
+
+/* HEADER */
+
+.user-info {
+  float: right;
+}
+
+.user-info a {
+  color: #29323c;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.user-info a:hover {
+  color: #000;
+}
+
+header img {
+  width: 200px;
+}
+
+/* NAVIGATION */
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  background-color: #181E24;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FFCC00;
+}
+
+/* MAIN CONTENT */
+
+#form-wrapper {
+  background-color: #181E24;
+  border-top: 4px solid #ffcc00;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.movie {
+  width: 33%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.movie img {
+  height: 150px;
+  border: 4px solid #ffffff;
+}
+
+.movie input {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.movie label {
+  color: #FFCC00;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.movie p {
+  font-size: 15px;
+}
+
+#vote_button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+footer {
+  /* background-color: #ffffff; */
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(255, 255, 205, 0.6);
+}
+
+
+
+/* EXAMPLES */
+
+#vote_button { /* example of styling an element by its id */
+  cursor: pointer;
+}
+
+.small { /* example of styling an element (or multiple elements) by its class */
+  font-size: 14px;
+}

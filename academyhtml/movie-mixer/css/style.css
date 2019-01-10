@@ -1,0 +1,103 @@
+body { /* all of the html is nested inside the body tag so rules applied here affect the whole page */
+  font-family: Arial, sans-serif;
+  background-color: #9EC2E9;
+  font-size: : 16px;
+  margin: : 0 0 0 0;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+header li a {
+  display: inline-block;
+  background-color: #181E24;
+  padding: 8px;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header li a:hover {
+  color: black;
+  background-color: #ffffff;
+}
+
+#logo {
+  width: 35%;
+}
+
+#vote_button { /* example of styling an element by its id */
+  cursor: pointer;
+}
+
+.small { /* example of styling an element (or multiple elements) by its class */
+  font-size: 14px;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.user-info {
+  float: right;
+}
+
+.user-info a {
+  color: #29323c;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.user-info a:hover{
+  color: red;
+}
+
+#form-wrapper {
+  background-color: #181E24;
+  border-width: 4px 0 0 0;
+  border-style: solid;
+  border-color: #FFCC00;
+  padding: 20px;
+  color: #ffffff
+}
+
+.movie {
+  line-height: 2em;
+  width: 33%;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 12px 0 12px 0;
+  text-align: center;
+  vertical-align: top;
+}
+
+.movie input {
+  display: inline;
+  width: auto;
+}
+
+.movie span {
+  color: #FFCC00;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.movie img {
+  height: 150px;
+  border: 4px;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+#vote_button {
+  display: block;
+  margin-left: 50%;
+}
