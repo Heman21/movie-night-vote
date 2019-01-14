@@ -29,6 +29,10 @@ header li a:hover {
   background-color: #ffffff;
 }
 
+footer {
+  text-align: center;
+}
+
 #logo {
   width: 35%;
 }
@@ -80,7 +84,7 @@ header li a:hover {
 }
 
 .movie input {
-  display: inline;
+  display: inline-block;
   width: auto;
 }
 
@@ -88,6 +92,7 @@ header li a:hover {
   color: #FFCC00;
   font-size: 18px;
   font-weight: bold;
+  display: inline-block;
 }
 
 .movie img {

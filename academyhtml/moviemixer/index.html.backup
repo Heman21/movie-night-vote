@@ -139,6 +139,6 @@
 </body>
 <!--Body tag End-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/script.js"></script>
+<script src="js/script.s"></script>
 
 </html> <!--End of html-->
